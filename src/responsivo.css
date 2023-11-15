@@ -1,0 +1,17 @@
+@media(max-width: 936px) {
+    .container {
+        width: 90%;
+    }
+    .weather_header {
+        flex-direction: column;
+    }
+    .weather_units {
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width: 480px) {
+    .weather_info {
+        grid-template-columns: none;
+    }
+}
