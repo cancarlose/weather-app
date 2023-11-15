@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>App de Clima</title>
+        <link rel="stylesheet" href="./src/estilo.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="weather_header">
+                <form class="weather_search">
+                    <input type="text" placeholder="Digite a cidade..." class="weather_search_form">
+                    <i class="fa_solid fa_magnifying_glass"></i>
+                </form>
+            </div>
+            <div class="weather_units">
+                <span class="weather_unit_celsius"></span>
+                <span class="weather_unit_farenheit"></span>
+            </div>
+            <div class="weather_body">
+                <h1 class="weather_city"></h1>
+                <div class="weather_datetime"></div>
+                <div class="weather_forecast"></div>
+                <div class="weather_icon"></div>
+                <p class="weather_temperature">                    
+                </p>
+                <div class="weather_minmax">
+                    <p>Min: 126#176</p>
+                    <p>Max: 166#176</p>
+                </div>
+            </div>
+
+            <div class="weather_info">
+                <div class="weather_card">
+                    <i class="fa-solid fa-temperature-full"></i>
+                    <div>
+                        <p>Sensação Real</p>
+                        <p class="weather_realfeel">186#176</p>
+                    </div>
+                </div>
+                <div class="weather_card">
+                    <i class="fa=solid fa-droplet"></i>
+                    <div>
+                        <p>Humidade</p>
+                        <p class="weather_humidity">186#176</p>
+                    </div>
+                </div>
+                <div class="weather_card">
+                    <i class="fa=solid fa-wind"></i>
+                    <div>
+                        <p>Vento</p>
+                        <p class="weather_wind">186#176</p>
+                    </div>
+                </div>
+                <div class="weather_card">
+                    <i class="fa=solid fa-gauge-high"></i>
+                    <div>
+                        <p>Pressão</p>
+                        <p class="weather_presure">186#176</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./src/app.js"></script>
+    </body>
+</html>
